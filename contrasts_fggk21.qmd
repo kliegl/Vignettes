@@ -602,7 +602,7 @@ For the random factor `School` the Helmert contrast, followed by PCA-based contr
 
 ## That's it
 
-That's it for this tutorial. It is time to try your own contrast coding. You can use these data; there are many alternatives to set up hypotheses for the five tests. Of course and even better, code up some contrasts for data of your own.
+That's it for this  vignette. It is time to try your own contrast coding. You can use these data; there are many alternatives to set up hypotheses for the five tests. Of course and even better, code up some contrasts for data of your own.
 
 Have fun!
 
