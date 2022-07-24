@@ -1,0 +1,17 @@
+---
+jupyter: julia-1.8
+---
+
+# A collection of vignettes {#sec-intro}
+
+This book reports vignettes about fitting linear mixed-effects models (LMMs) with the MixedModels.jl package availabe in the Julia programming language. The theory (and more) behind this method is described in Embrace Uncertainty. There are two types of vignettes. The first kind are used to illustrate some technical aspects (e.g., how to specify contrasts). The second kind are used to illustrate model selection. 
+
+For both kinds the approach is to start with a publication or at least a well documented data set and document the workflow from configuring the data into the required format over necessary transformations to fitting the model. As much as possible visualizations will be provided along the way. Vignettes allow us to reproduced the original analyses but also to go beyond what was reported in the original publication.
+
+The expectation is that the collection of vignettes is rich enough to provide starting points for the analyses of new data. Across vignettes there is much variety in initial data wrangling (e.g., renaming of variables according to a style guide, re-ordering factor levels to be compatible with some canned option for a contrast specification, transformations of dependent variables to meet the LMM assumption that model residuals end up being normally distributed). 
+
+Across vignettes there are many code chunks that illustrate how fixed-effect interactions are visualized. These interactions are based on contrasts specified for factors, but may also involve, for example, polynomial terms of covariates. For interactions involving two covariates there may be a need to convert one of them to a factor for visualization. 
+
+Across vignettes there is much variety in the visualization of variance components and correlation parameters estimated in the random-effect structure of the LMMs. Usually, we use conditional modes to this end. 
+
+In summary, the vignettes not only show how an LMM supported by the data is specified and selected among candidate models for the data sets under consideration. This, of course, is critical. Vignettes also provide the context in which this model fitting occurs -- both before and after fitting the model. 
