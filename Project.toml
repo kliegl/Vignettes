@@ -1,5 +1,5 @@
-name = "EmbraceUncertainty"
-authors = ["Phillip Alday <me@phillipalday.com>, Reinhold Kliegl <reinhold.kliegl@gmail.com>, Douglas Bates <dmbates@gmail.com>"]
+name = "Vignettes"
+athors = ["Reinhold Kliegl <reinhold.kliegl@gmail.com>"]
 
 [deps]
 AlgebraOfGraphics = "cbdf2221-f076-402e-a563-3d30da359d67"

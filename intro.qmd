@@ -2,7 +2,7 @@
 jupyter: julia-1.8
 ---
 
-# A collection of vignettes {#sec-intro}
+# A Collection of Vignettes {#sec-intro}
 
 This book reports vignettes about fitting linear mixed-effects models (LMMs) with the MixedModels.jl package availabe in the Julia programming language. The theory (and more) behind this method is described in Embrace Uncertainty. There are two types of vignettes. The first kind are used to illustrate some technical aspects (e.g., how to specify contrasts). The second kind are used to illustrate model selection. 
 

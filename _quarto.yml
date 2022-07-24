@@ -1,10 +1,10 @@
 project:
   type: book
   output-dir: docs
-
+ 
 book:
-  title: "Vignettes for Embrace Uncertainty"
-  subtitle: "Mixed-effects models with Julia"
+  title: "Vignettes to Embrace Uncertainty"
+  subtitle: "Linear Mixed Models with Julia"
   author: "Reinhold Kliegl"
   date: today
   chapters:
